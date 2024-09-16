@@ -8,8 +8,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     transform: rotate(90deg);
-    margin-top: 200px;
-    margin-left: -80px;
+    margin-top: 220px;
+    margin-left: -40px;
     border-radius: 20px;
     filter: brightness(40%);
     z-index: 1;
@@ -19,7 +19,7 @@
 .giyu-tomioka {
     z-index: 2;
     transform: rotate(90deg);
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: -40px;
 }
 .ucapan {
@@ -28,10 +28,13 @@
     top: 0;
     left: 0;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 90px;
     position: absolute;
 }
-span {
+.nim {
+    color: rgb(255, 255, 255);
+}
+.nama {
     background: linear-gradient(
     45deg,
     #ffffff 0%,
@@ -60,12 +63,13 @@ span {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-    margin-top: -500px;
+  animation: 2s text-color ease infinite;
+}
+h2 {  
     font-size: 18px;
     z-index: 2;
     white-space: nowrap;
     font-family: "Playpen Sans", cursive;
-    animation: 2s text-color ease infinite;
     width: max-content;
     -webkit-text-stroke: .5px rgb(255, 255, 255);
     top: 0;
@@ -73,8 +77,8 @@ span {
     font-weight: bold;
     z-index: 2;
     transform: rotate(90deg);
-    margin-top: -435px;
-    margin-left: 0px;
+    margin-top: -455px;
+    margin-left: 30px;
     position: relative;
 }
 @keyframes text-color {
@@ -133,10 +137,10 @@ h4 {
     }
     }
     .container-elemen-picture-1 {
-        left: 220px;
+        left: 290px;
         position: relative;
     z-index: -1;
-    top: -350px;
+    top: -290px;
     border-radius: 20px;
     filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -webkit-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
@@ -181,10 +185,10 @@ h4 {
     }
     }
     .container-elemen-picture-2 {
-        left: -5px;
+        left: 0px;
         position: relative;
     z-index: -1;
-    top: -440px;
+    top: -380px;
     border-radius: 20px;
     filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -webkit-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
@@ -230,10 +234,10 @@ h4 {
         }
         }
         .container-elemen-picture-3 {
-            left: -10px;
+            left: 0px;
             position: relative;
         z-index: -1;
-        top: 50px;
+        top: 140px;
         border-radius: 20px;
         filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
             -webkit-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
@@ -279,10 +283,10 @@ h4 {
             }
             }
             .container-elemen-picture-4 {
-                left: 215px;
+                left: 285px;
                 position: relative;
             z-index: -1;
-            top: -30px;
+            top: 60px;
             border-radius: 20px;
             filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
                 -webkit-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
